@@ -5,14 +5,14 @@ import Options from './components/Options';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
-    borderRadius: 10,
+    borderRadius: 5,
     margin: '15px 50px',
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
     width: '600px',
-    border: '2px solid cyan',
+    border: '2px solid black',
     boxShadow: 'none',
 
     [theme.breakpoints.down('xs')]: {
